@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Proyecto Odoo - Página inicial" />
+    <title>Proyecto Odoo</title>
+
+    <!-- Enlaza tu CSS aquí -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Proyecto Odoo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Esta es la página inicial del proyecto. Sustituye este contenido según necesites.</p>
+        </section>
+
+        <section id="funcionalidades">
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li>Integración con Odoo</li>
+                <li>UI responsiva</li>
+                <li>Rutas y módulos</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; <span id="year"></span> Proyecto Odoo</p>
+    </footer>
+
+    <!-- Script básico -->
+    <script>
+        // Actualiza el año en el pie de página
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
