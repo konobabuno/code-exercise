@@ -1,0 +1,7 @@
+.accordion-card{
+    color: map-get($colors, blue);
+    &.active{
+        background-color: map-get($colors, blue);
+        color: map-get($colors, white);
+    }
+}

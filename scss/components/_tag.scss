@@ -1,0 +1,18 @@
+.tag{
+    border: 1px solid rgba(map-get($colors, white), 0.5);
+    padding: 4px 12px;
+    border-radius: 20px;
+
+    &-pill{
+        padding: 3px 6px;
+        border-radius: 20px;
+    }
+
+    &-blue{
+        display: block;
+        background-color: map-get($colors, blue);
+        border: 0;
+        padding: 4px 12px;
+    }
+}
+

@@ -348,7 +348,7 @@ $utilities: map-merge(
     ),
     // scss-docs-end utils-flex
     // Margin utilities
-    // scss-docs-start utils-spacing
+    // scss-docs-start utils-g
     "margin": (
       responsive: true,
       property: margin,
@@ -496,7 +496,7 @@ $utilities: map-merge(
       class: column-gap,
       values: $spacers
     ),
-    // scss-docs-end utils-spacing
+    // scss-docs-end utils-g
     // Text
     // scss-docs-start utils-text
     "font-family": (

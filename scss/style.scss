@@ -1,0 +1,24 @@
+// Vendor
+@import "../vendor/scss/bootstrap";
+@import "../vendor/swiper/swiper";
+
+// Base
+@import "./base/mixins";
+@import "./base/variables";
+@import "./base/type";
+@import "./base/root";
+@import "./base/modifiers";
+
+// Components
+@import "./components/header";
+@import "./components/tag";
+@import "./components/buttons";
+@import "./components/accordion";
+@import "./components/brand-card";
+@import "./components/tab-selector";
+@import "./components/price-card";
+@import "./components/footer";
+
+//Layouts
+
+

@@ -1,0 +1,46 @@
+@mixin create-font-face($family, $path, $weight) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$path}.woff2') format('woff2'),
+             url('#{$path}.woff') format('woff');
+        font-weight: $weight;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+@mixin generate-font-styles($sizes, $weights, $family) {
+    @each $size-name, $size-properties in $sizes {
+        @each $weight-name, $weight-value in $weights {
+            .#{$size-name}-#{$weight-name} {
+                font-family: $family;
+                font-size: map-get($size-properties, size);
+                font-weight: $weight-value;
+                letter-spacing: map-get($size-properties, letter-spacing);
+                line-height: normal;
+            }
+        }
+    }
+}
+
+@mixin generate-color-classes($color-map) {
+    @each $name, $color in $color-map {
+        .c-#{$name} {
+            color: $color;
+        }
+        .bg-#{$name} {
+            background-color: $color;
+        }
+        .border-#{$name} {
+            border: $color 1px solid;
+        }
+    }
+}
+
+@mixin generate-border-radius-utilities($radius-map) {
+    @each $name, $radius in $radius-map {
+        .#{$name} {
+            border-radius: $radius;
+        }
+    }
+}

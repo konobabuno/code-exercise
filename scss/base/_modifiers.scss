@@ -1,0 +1,35 @@
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    @include media-breakpoint-up(md){
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @include media-breakpoint-up(lg){
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.border{
+    &-tb{
+    border-top: solid 1px rgb(map-get($colors, white), 0.1);
+    border-bottom: solid 1px rgb(map-get($colors, white), 0.1);
+    }
+
+    &-b{
+    border-bottom: solid 1px rgb(map-get($colors, white), 0.1);
+    }
+}
+
+.bg-gradient-blue{
+    background: linear-gradient(
+            45deg,
+            #3C81F6 0%,
+            #6267F1 100%
+        );
+}
+
+.diagonal-container{
+    clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 50px), 0% 100%);
+}

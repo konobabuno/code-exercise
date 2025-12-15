@@ -1,0 +1,17 @@
+
+h1, h2, h3, h4, p {
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+}
+
+
+.gradient-color-type{
+    background: linear-gradient(90deg, #62A4FA 0%, #A756F7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@include create-font-face($font-family, '../fonts/Helvetica', map-get($font-weight, regular));
+@include create-font-face($font-family, '../fonts/Helvetica-bold', map-get($font-weight, bold));
+@include generate-font-styles($font-sizes, $font-weight, $font-family);

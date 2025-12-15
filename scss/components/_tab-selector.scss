@@ -1,0 +1,20 @@
+.tab{
+
+    &-selector{
+        padding: 6px 15px;
+        border: 1px solid rgba(map-get($colors, white), 0.2);
+    }
+
+    &-item{
+        padding: 4px;
+        color: map-get($colors, white);
+        opacity: 0.5;
+
+        &.active{
+            opacity: 1;
+        }
+    }
+    
+
+
+}

@@ -1,0 +1,29 @@
+$font-family: 'Helvetica Neue', sans-serif;
+
+$font-weight: (
+    regular: 400,
+    bold: 700
+);
+
+$font-sizes: (
+    tag: (size: 16px, letter-spacing: 0.11em),
+    detail: (size: 13px, letter-spacing: -0.01em),
+    display: (size: 66px, letter-spacing: -0.01em),
+    h1: (size: 50px, letter-spacing: -0.01em),
+    h2: (size: 42px, letter-spacing: -0.01em),
+    p-large: (size: 22px, letter-spacing: normal),
+    p: (size: 18px, letter-spacing: normal)
+);
+
+$colors: (
+    dark: #010617,
+    dark-blue: #010617,
+    blue: #0D6EFD,
+    white: #FFFFFF,
+    purple: #9E60F7,
+    gray: #212529,
+    black: #000000,
+    transparent: transparent 
+);
+
+@include generate-color-classes($colors);

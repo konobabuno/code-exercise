@@ -1,0 +1,11 @@
+.brand-card {
+    border: 1px solid rgba(map-get($colors, white), 0.2);
+    padding: 15px;
+
+    &-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    }
+}
