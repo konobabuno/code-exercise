@@ -1,0 +1,20 @@
+.animate-on-scroll{
+  opacity: 0;
+  will-change: scroll-position;
+}
+
+.animate-on-scroll.animate {
+    animation-name: a;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes a {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

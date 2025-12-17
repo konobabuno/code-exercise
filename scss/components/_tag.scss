@@ -1,18 +1,28 @@
 .tag{
     border: 1px solid rgba(map-get($colors, white), 0.5);
-    padding: 4px 12px;
+    padding: 4px 12px 4px 4px;
     border-radius: 20px;
-
     &-pill{
         padding: 3px 6px;
         border-radius: 20px;
     }
-
     &-blue{
         display: block;
         background-color: map-get($colors, blue);
         border: 0;
         padding: 4px 12px;
+    }
+    &-payroll{
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+
+        @include media-breakpoint-up(md){
+            top: 70px;
+            left: auto;
+            right: -10px;
+            bottom: auto;
+        }
     }
 }
 

@@ -10,14 +10,27 @@
 }
 
 @mixin generate-font-styles($sizes, $weights, $family) {
-    @each $size-name, $size-properties in $sizes {
+    @each $size-name, $breakpoints in $sizes {
         @each $weight-name, $weight-value in $weights {
             .#{$size-name}-#{$weight-name} {
                 font-family: $family;
-                font-size: map-get($size-properties, size);
                 font-weight: $weight-value;
-                letter-spacing: map-get($size-properties, letter-spacing);
-                line-height: normal;
+
+                $sm-props: map-get($breakpoints, sm);
+                font-size: map-get($sm-props, size);
+                letter-spacing: map-get($sm-props, letter-spacing);
+
+                @include media-breakpoint-up(md) {
+                    $md-props: map-get($breakpoints, md);
+                    font-size: map-get($md-props, size);
+                    letter-spacing: map-get($md-props, letter-spacing);
+                }
+
+                @include media-breakpoint-up(lg) {
+                    $base-props: map-get($breakpoints, base);
+                    font-size: map-get($base-props, size);
+                    letter-spacing: map-get($base-props, letter-spacing);
+                }
             }
         }
     }

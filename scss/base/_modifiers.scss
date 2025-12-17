@@ -23,13 +23,22 @@
 }
 
 .bg-gradient-blue{
-    background: linear-gradient(
-            45deg,
-            #3C81F6 0%,
-            #6267F1 100%
-        );
+    background: linear-gradient(45deg,#3C81F6 0%,#6267F1 100%);
 }
 
 .diagonal-container{
     clip-path: polygon(0% 50px, 100% 0%, 100% calc(100% - 50px), 0% 100%);
+}
+
+.dashboard-image{
+    transform: perspective(1200px) rotateX(6deg) rotateY(-8deg) skewX(-2deg);
+    box-shadow: 12px 20px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container-light-blue{
+    background-color: rgb(#194A5F, 0.6);
+}
+
+.profile-thumb{
+    background-color: rgb(map-get($colors, blue), 0.4);
 }

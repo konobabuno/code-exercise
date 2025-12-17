@@ -1,7 +1,30 @@
 .accordion-card{
+    
     color: map-get($colors, blue);
+    transition: background-color 0.3s ease, color 0.3s ease;
     &.active{
         background-color: map-get($colors, blue);
         color: map-get($colors, white);
+    }
+}
+
+.accordion-content{
+    background:
+    linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+    background-size: 30px 30px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    &:first-child{
+        position: static;
+    }
+    &.active{
+        opacity: 1;
+    }
+    .accordion-item{
+        border: 1px solid rgba(map-get($colors, white), 0.1);
     }
 }

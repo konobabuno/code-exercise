@@ -2,4 +2,22 @@ footer{
     & .bottom{
         border-top: 1px solid map-get($colors, blue);
     }
+
+    .input-group{
+            border-radius: 1rem 0 0 1rem;
+        input:focus{
+            background-color: map-get($colors, gray);
+            outline: map-get($colors, white);
+            color: map-get($colors, white);
+        }
+
+        .button-form{
+            border-radius: 0 0.325rem 0.325rem 0;
+            &:hover{
+                background-color: map-get($colors, white);
+                color: map-get($colors, blue);
+                cursor: pointer;
+            }
+        }
+    }
 }

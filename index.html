@@ -9,342 +9,390 @@
 </head>
 
 <body>
-    <header class="border-b">
-        <div class="container py-4">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-2 logo">
-                    <svg width="125" height="67" viewBox="0 0 125 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M94.5321 46.8323C92.5145 46.8323 90.5422 46.237 88.8646 45.1215C87.187 44.006 85.8794 42.4206 85.1073 40.5656C84.3352 38.7107 84.1332 36.6695 84.5268 34.7003C84.9204 32.7311 85.892 30.9223 87.3187 29.5026C88.7454 28.0829 90.5631 27.1161 92.5419 26.7244C94.5208 26.3327 96.5719 26.5337 98.436 27.302C100.3 28.0704 101.893 29.3715 103.014 31.0409C104.135 32.7103 104.733 34.673 104.733 36.6808C104.733 39.3732 103.659 41.9552 101.746 43.859C99.8324 45.7628 97.2377 46.8323 94.5321 46.8323ZM94.5321 42.6364C95.7158 42.6364 96.8729 42.2871 97.8571 41.6327C98.8413 40.9783 99.6083 40.0481 100.061 38.9599C100.514 37.8717 100.633 36.6742 100.402 35.5189C100.171 34.3637 99.601 33.3025 98.764 32.4696C97.927 31.6367 96.8606 31.0695 95.6997 30.8397C94.5388 30.6099 93.3354 30.7278 92.2418 31.1786C91.1483 31.6294 90.2136 32.3927 89.556 33.3721C88.8983 34.3515 88.5473 35.5029 88.5473 36.6808C88.5473 38.2603 89.1779 39.7751 90.3002 40.892C91.4226 42.0089 92.9449 42.6364 94.5321 42.6364ZM73.1774 46.8323C71.1597 46.8323 69.1874 46.237 67.5098 45.1215C65.8322 44.006 64.5247 42.4206 63.7526 40.5656C62.9805 38.7107 62.7785 36.6695 63.1721 34.7003C63.5657 32.7311 64.5373 30.9223 65.964 29.5026C67.3906 28.0829 69.2083 27.1161 71.1872 26.7244C73.1661 26.3327 75.2172 26.5337 77.0812 27.302C78.9453 28.0704 80.5385 29.3715 81.6595 31.0409C82.7804 32.7103 83.3787 34.673 83.3787 36.6808C83.3787 39.3732 82.3039 41.9552 80.3908 43.859C78.4777 45.7628 75.8829 46.8323 73.1774 46.8323ZM73.1774 42.6364C74.3611 42.6364 75.5181 42.2871 76.5023 41.6327C77.4865 40.9783 78.2536 40.0481 78.7066 38.9599C79.1596 37.8717 79.2781 36.6742 79.0471 35.5189C78.8162 34.3637 78.2462 33.3025 77.4092 32.4696C76.5723 31.6367 75.5059 31.0695 74.3449 30.8397C73.184 30.6099 71.9807 30.7278 70.8871 31.1786C69.7935 31.6294 68.8588 32.3927 68.2012 33.3721C67.5436 34.3515 67.1926 35.5029 67.1926 36.6808C67.1926 38.2603 67.8231 39.7751 68.9455 40.892C70.0679 42.0089 71.5901 42.6364 73.1774 42.6364ZM62.0239 36.5455C62.0239 42.2168 57.4538 46.8323 51.8226 46.8323C46.1915 46.8323 41.6213 42.2303 41.6213 36.559C41.6213 30.8877 45.7699 26.5293 51.8226 26.5293C54.0533 26.5293 56.1208 27.003 57.8074 28.2347V22.3469C57.8074 21.2234 58.8003 20.303 59.9157 20.303C61.031 20.303 62.0239 21.2234 62.0239 22.3469V36.5455ZM51.8226 42.6364C53.0063 42.6364 54.1634 42.2871 55.1476 41.6327C56.1318 40.9783 56.8989 40.0481 57.3518 38.9599C57.8048 37.8717 57.9233 36.6742 57.6924 35.5189C57.4615 34.3637 56.8915 33.3025 56.0545 32.4696C55.2175 31.6367 54.1511 31.0695 52.9902 30.8397C51.8293 30.6099 50.6259 30.7278 49.5324 31.1786C48.4388 31.6294 47.5041 32.3927 46.8465 33.3721C46.1889 34.3515 45.8379 35.5029 45.8379 36.6808C45.8379 38.2603 46.4684 39.7751 47.5908 40.892C48.7131 42.0089 50.2354 42.6364 51.8226 42.6364Z" fill="white"/>
-                    <path d="M30.4679 46.8323C28.4503 46.8323 26.478 46.237 24.8004 45.1215C23.1228 44.006 21.8152 42.4206 21.0431 40.5656C20.271 38.7107 20.069 36.6695 20.4626 34.7003C20.8562 32.7311 21.8278 30.9223 23.2545 29.5026C24.6812 28.0829 26.4989 27.1161 28.4777 26.7244C30.4566 26.3327 32.5077 26.5337 34.3718 27.302C36.2358 28.0704 37.8291 29.3715 38.95 31.0409C40.0709 32.7103 40.6692 34.673 40.6692 36.6808C40.6692 39.3732 39.5944 41.9552 37.6813 43.859C35.7682 45.7628 33.1735 46.8323 30.4679 46.8323ZM30.4679 42.6364C31.6516 42.6364 32.8087 42.2871 33.7929 41.6327C34.7771 40.9783 35.5441 40.0481 35.9971 38.9599C36.4501 37.8717 36.5686 36.6742 36.3377 35.5189C36.1068 34.3637 35.5368 33.3025 34.6998 32.4696C33.8628 31.6367 32.7964 31.0695 31.6355 30.8397C30.4745 30.6099 29.2712 30.7278 28.1776 31.1786C27.0841 31.6294 26.1494 32.3927 25.4918 33.3721C24.8341 34.3515 24.4831 35.5029 24.4831 36.6808C24.4831 38.2603 25.1137 39.7751 26.236 40.892C27.3584 42.0089 28.8807 42.6364 30.4679 42.6364Z" fill="white"/>
-                    </svg>
+<header class="navbar navbar-expand-lg bg-dark-blue border-b position-fixed w-100 z-3" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="./assets/imgs/logo.svg" class="logo-img" alt="Odoo Logo"></a>
+    <div class="d-lg-none d-flex justify-content-end align-items-center">
+        <div class="d-flex d-lg-none flex-row column-gap-3 justify-content-end align-items-center pe-3">
+            <button class="button-sm border-white rounded-3 c-white p-regular d-md-block d-none">Login</button>
+            <button class="button-sm bg-gradient-blue rounded-3 c-white p-regular">Book Demo</button>
+        </div>  
+        <button class="button-sm navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav p-regular">
+        <a class="nav-link c-white" aria-current="page" href="#hero">Forecasting</a>
+        <a class="nav-link c-white" href="#unified-intelligence">Unified</a>
+        <a class="nav-link c-white" href="#stack">Stack</a>
+        <a class="nav-link c-white" href="#pricing">Pricing</a>
+      </div>
+    <div class="d-lg-flex flex-row column-gap-3 justify-content-end align-items-center ps-lg-4 pt-3 pt-lg-0 pb-3 pb-md-0">
+        <button class="d-lg-block d-md-none button-sm border-white rounded-3 c-white p-regular">Login</button>
+        <button class="d-lg-block d-none button-sm bg-gradient-blue rounded-3 c-white p-regular">Book Demo</button>
+    </div>  
+    </div>
+  </div>
+</header>
+
+<main>
+    <section id="hero">
+        <div class="container pt-lg-section pt-section">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center animate-on-scroll">
+                    <div class="tag d-inline-flex align-self-center align-self-lg-start column-gap-3 align-items-center justify-content-center">
+                        <span class="detail-bold c-white tag-pill bg-blue">v2.4</span>
+                        <span class="detail-regular c-white opacity-75">Intelligent Forecasting is live</span>
+                    </div>
+                    <h1 class="display-bold pt-md-5 pt-4 text-center text-lg-start">Orchestrate your <span class="gradient-color-type">Financial Future.</span></h1>
+                    <p class="p-large-regular pt-md-5 pt-4 opacity-75 text-center text-lg-start">Odoo replaces fragmented tools with one unified kernel. Real-time finance, supply chain, and workforce management at enterprise scale.</p>
+                    <div class="d-flex justify-content-lg-start justify-content-center pt-md-7 pt-6 column-gap-3">
+                        <button class="button button-lg bg-blue c-white p-bold rounded-3">Start Free Trial</button>
+                        <button class="button button-lg bg-transparent border-white c-white p-bold rounded-3">View demo</button>
+                    </div>
                 </div>
-                <div class="col-5">
-                    <div class="d-flex flex-row column-gap-4 justify-content-end align-items-center">
-                        <div class="d-flex flex-row column-gap-3 c-white p-regular nav-menu">
-                            <a href="#">Platform</a>
-                            <a href="#" class="active">Integrations</a>
-                            <a href="#">Pricing</a>
-                        </div>
-                        <div class="d-flex flex-row column-gap-3     justify-content-end align-items-center">
-                            <button class="button-sm border-white rounded-3 c-white p-regular">Login</button>
-                            <button class="button-sm bg-gradient-blue rounded-3 c-white p-regular">Book Demo</button>
+                <div class="col-lg-6 col-md-10 col-12 pt-lg-0 pt-6 position-relative">
+                    <div class="rounded-5 border-gray dashboard-image animate-on-scroll">
+                        <img src="./assets/imgs/Dashboard.png" alt="Hero Image" class="w-100 rounded-5">
+                    </div>
+                    <div class="tag-payroll border-gray bg-light-blue p-3 rounded-4 position-absolute animate-on-scroll">
+                        <div class="d-flex column-gap-3 align-items-center">
+                            <div class="check-container bg-green h-100 rounded-4 px-3 py-4">
+                                <img src="./assets/imgs/Check.svg" alt="Check">
+                            </div>
+                            <div>
+                                <div class="detail-bold c-white">Payroll</div>
+                                <div class="p-bold c-white opacity-75">Dispersed</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-           
+        </div>   
+    </section>
+    
+    <section id="marquee">
+        <div class="diagonal-container bg-black py-lg-10 py-9 mt-lg-10 mt-9 mb-lg-7 mb-6">
+            <div class="container marquee-brands d-flex overflow-hidden">
+                <div class="marquee-content d-flex align-items-center">
+                    <img src="./assets/imgs/AirbnbMarquee.svg" class="mx-6" alt="Airbnb Logo">
+                    <img src="./assets/imgs/AlphapetMarquee.svg" class="mx-6" alt="Alphabet Logo">
+                    <img src="./assets/imgs/AmazonMarquee.svg" class="mx-6" alt="Amazon Logo">
+                    <img src="./assets/imgs/MicrosoftMarquee.svg" class="mx-6" alt="Microsoft Logo">
+                    <img src="./assets/imgs/SporifyMarquee.svg" class="mx-6" alt="Spotify Logo">
+                    <img src="./assets/imgs/StripeMarquee.svg" class="mx-6" alt="Stripe Logo">
+                    <img src="./assets/imgs/UberMarquee.svg" class="mx-6" alt="Uber Logo">
+                </div>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <section id="hero">
-            <div class="container py-section">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="tag d-inline-flex column-gap-3 align-items-center justify-content-center">
-                            <span class="detail-bold c-white tag-pill bg-blue">v2.4</span>
-                            <span class="detail-regular c-white opacity-75">Intelligent Forecasting is live</span>
-                        </div>
-                        <h1 class="display-bold pt-5">Orchestrate your <span class="gradient-color-type">Financial Future.</span></h1>
-                        <p class="p-large-regular pt-5 opacity-75">Odoo replaces fragmented tools with one unified kernel. Real-time finance, supply chain, and workforce management at enterprise scale.</p>
-                        <div class="d-flex pt-7 column-gap-3">
-                            <button class="button button-lg bg-blue c-white p-bold rounded-3">Start Free Trial</button>
-                            <button class="button button-lg bg-transparent border-white c-white p-bold rounded-3">View demo</button>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>   
-        </section>
-        
-        <section id="marquee">
-            <div class="diagonal-container bg-black d-flex flex-row column-gap-10 align-items-center py-10 mt-10 mb-7">
-                <div>
-                    <svg width="93" height="29" viewBox="0 0 93 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_59_231)">
-                    <path d="M49.0131 7.28629C49.0131 8.33133 48.1705 9.17317 47.1246 9.17317C46.0787 9.17317 45.2362 8.33133 45.2362 7.28629C45.2362 6.24124 46.0496 5.3994 47.1246 5.3994C48.1996 5.42843 49.0131 6.27027 49.0131 7.28629ZM41.2268 11.0891C41.2268 11.2633 41.2268 11.5536 41.2268 11.5536C41.2268 11.5536 40.3261 10.3924 38.4086 10.3924C35.2418 10.3924 32.7722 12.8018 32.7722 16.1401C32.7722 19.4494 35.2127 21.8879 38.4086 21.8879C40.3552 21.8879 41.2268 20.6977 41.2268 20.6977V21.1912C41.2268 21.4234 41.4011 21.5976 41.6335 21.5976H43.9869V10.6827C43.9869 10.6827 41.8369 10.6827 41.6335 10.6827C41.4011 10.6827 41.2268 10.8859 41.2268 11.0891ZM41.2268 18.0851C40.791 18.7237 39.9194 19.2753 38.8735 19.2753C37.014 19.2753 35.5904 18.1141 35.5904 16.1401C35.5904 14.1662 37.014 13.005 38.8735 13.005C39.8903 13.005 40.82 13.5856 41.2268 14.1952V18.0851ZM45.7301 10.6827H48.5192V21.5976H45.7301V10.6827ZM87.3927 10.3924C85.4751 10.3924 84.5745 11.5536 84.5745 11.5536V5.42843H81.7854V21.5976C81.7854 21.5976 83.9353 21.5976 84.1387 21.5976C84.3711 21.5976 84.5454 21.3944 84.5454 21.1912V20.6977C84.5454 20.6977 85.4461 21.8879 87.3636 21.8879C90.5304 21.8879 93 19.4494 93 16.1401C93 12.8308 90.5304 10.3924 87.3927 10.3924ZM86.9278 19.2462C85.8528 19.2462 85.0103 18.6947 84.5745 18.0561V14.1662C85.0103 13.5856 85.94 12.976 86.9278 12.976C88.7872 12.976 90.2108 14.1371 90.2108 16.1111C90.2108 18.0851 88.7872 19.2462 86.9278 19.2462ZM80.3327 15.1241V21.6266H77.5436V15.4434C77.5436 13.6436 76.9625 12.9179 75.3936 12.9179C74.5511 12.9179 73.6795 13.3534 73.1274 13.992V21.5976H70.3383V10.6827H72.5464C72.7788 10.6827 72.9531 10.8859 72.9531 11.0891V11.5536C73.7666 10.7117 74.8416 10.3924 75.9166 10.3924C77.1368 10.3924 78.1537 10.7407 78.9672 11.4374C79.955 12.2503 80.3327 13.2953 80.3327 15.1241ZM63.5689 10.3924C61.6513 10.3924 60.7507 11.5536 60.7507 11.5536V5.42843H57.9616V21.5976C57.9616 21.5976 60.1115 21.5976 60.3149 21.5976C60.5473 21.5976 60.7216 21.3944 60.7216 21.1912V20.6977C60.7216 20.6977 61.6223 21.8879 63.5398 21.8879C66.7066 21.8879 69.1762 19.4494 69.1762 16.1401C69.2052 12.8308 66.7357 10.3924 63.5689 10.3924ZM63.104 19.2462C62.029 19.2462 61.1865 18.6947 60.7507 18.0561V14.1662C61.1865 13.5856 62.1162 12.976 63.104 12.976C64.9634 12.976 66.387 14.1371 66.387 16.1111C66.387 18.0851 64.9634 19.2462 63.104 19.2462ZM55.5501 10.3924C56.3927 10.3924 56.8285 10.5375 56.8285 10.5375V13.1211C56.8285 13.1211 54.5042 12.3373 53.0515 13.992V21.6266H50.2624V10.6827C50.2624 10.6827 52.4124 10.6827 52.6157 10.6827C52.8482 10.6827 53.0225 10.8859 53.0225 11.0891V11.5536C53.5454 10.9439 54.6785 10.3924 55.5501 10.3924ZM26.5839 20.6106C26.4386 20.2623 26.2933 19.8849 26.1481 19.5656C25.9156 19.043 25.6832 18.5495 25.4798 18.0851L25.4508 18.0561C23.4461 13.7017 21.2961 9.28929 19.03 4.93494L18.9428 4.76076C18.7104 4.32533 18.478 3.86086 18.2455 3.3964C17.955 2.87387 17.6645 2.32232 17.1996 1.7998C16.2699 0.638639 14.9334 0 13.5098 0C12.0571 0 10.7497 0.638639 9.79098 1.74174C9.35518 2.26426 9.03559 2.81582 8.74506 3.33834C8.51263 3.8028 8.2802 4.26727 8.04778 4.7027L7.96062 4.87688C5.7235 9.23123 3.5445 13.6436 1.53981 17.998L1.51076 18.0561C1.30738 18.5205 1.07496 19.014 0.842529 19.5365C0.697262 19.8559 0.551995 20.2042 0.406728 20.5816C0.0290331 21.6557 -0.0871805 22.6717 0.0580866 23.7167C0.377674 25.8939 1.83035 27.7227 3.83503 28.5355C4.59042 28.8549 5.37486 29 6.18836 29C6.42079 29 6.71132 28.971 6.94375 28.9419C7.90251 28.8258 8.89033 28.5065 9.84909 27.955C11.0403 27.2873 12.1734 26.3293 13.4517 24.9359C14.7301 26.3293 15.8922 27.2873 17.0543 27.955C18.0131 28.5065 19.0009 28.8258 19.9597 28.9419C20.1921 28.971 20.4826 29 20.7151 29C21.5286 29 22.3421 28.8549 23.0684 28.5355C25.1021 27.7227 26.5258 25.8649 26.8453 23.7167C27.0778 22.7007 26.9616 21.6847 26.5839 20.6106ZM13.4808 22.1201C11.9119 20.1461 10.895 18.2883 10.5464 16.7207C10.4011 16.0531 10.3721 15.4725 10.4592 14.95C10.5173 14.4855 10.6916 14.0791 10.9241 13.7307C11.4761 12.9469 12.4058 12.4535 13.4808 12.4535C14.5557 12.4535 15.5145 12.9179 16.0375 13.7307C16.2699 14.0791 16.4442 14.4855 16.5023 14.95C16.5895 15.4725 16.5604 16.0821 16.4152 16.7207C16.0665 18.2593 15.0497 20.1171 13.4808 22.1201ZM25.0731 23.4845C24.8697 24.994 23.8528 26.3003 22.4292 26.8809C21.7319 27.1712 20.9765 27.2583 20.2212 27.1712C19.4948 27.0841 18.7685 26.8519 18.0131 26.4164C16.9672 25.8358 15.9213 24.9359 14.701 23.6006C16.6185 21.2493 17.7807 19.1011 18.2165 17.1852C18.4198 16.2853 18.4489 15.4725 18.3617 14.7177C18.2455 13.992 17.984 13.3243 17.5773 12.7437C16.6766 11.4374 15.1659 10.6827 13.4808 10.6827C11.7957 10.6827 10.2849 11.4665 9.38423 12.7437C8.97749 13.3243 8.71601 13.992 8.59979 14.7177C8.48358 15.4725 8.51263 16.3143 8.74506 17.1852C9.18086 19.1011 10.3721 21.2783 12.2605 23.6296C11.0693 24.965 9.99436 25.8649 8.94843 26.4454C8.19304 26.8809 7.46671 27.1131 6.74037 27.2002C5.95593 27.2873 5.20054 27.1712 4.53231 26.9099C3.1087 26.3293 2.09183 25.023 1.88845 23.5135C1.80129 22.7878 1.8594 22.0621 2.14993 21.2492C2.23709 20.959 2.38236 20.6687 2.52763 20.3203C2.731 19.8559 2.96343 19.3624 3.19586 18.8689L3.22491 18.8108C5.2296 14.4855 7.37955 10.0731 9.61666 5.77678L9.70382 5.6026C9.93625 5.16717 10.1687 4.7027 10.4011 4.26727C10.6335 3.8028 10.895 3.36737 11.2146 2.98999C11.8247 2.29329 12.6382 1.91592 13.5389 1.91592C14.4395 1.91592 15.253 2.29329 15.8631 2.98999C16.1827 3.36737 16.4442 3.8028 16.6766 4.26727C16.9091 4.7027 17.1415 5.16717 17.3739 5.6026L17.4611 5.77678C19.6691 10.1021 21.8191 14.5145 23.8238 18.8398V18.8689C24.0562 19.3333 24.2596 19.8559 24.492 20.3203C24.6373 20.6687 24.7825 20.959 24.8697 21.2492C25.1021 22.004 25.1893 22.7297 25.0731 23.4845Z" fill="#65768D"/>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0_59_231">
-                    <rect width="93" height="29" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>
+    <section id="unified-intelligence" class="pb-lg-10 pb-9 bg-dark-blue">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10 col-12 animate-on-scroll">
+                    <p class="tag-bold text-uppercase c-purple text-center">Unified Intelligence</p>
+                    <h2 class="h1-bold c-white text-center">One codebase. Endless possibilities.</h2>
                 </div>
             </div>
-        </section>
-
-        <section id="unified-intelligence" class="pb-10 bg-dark-blue">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6">
-                        <p class="tag-bold text-uppercase c-purple text-center">Unified Intelligence</p>
-                        <h2 class="h1-bold c-white text-center">One codebase. Endless possibilities.</h2>
-                    </div>
-                </div>
-                <div class="row pt-7">
-                    <div class="col-4">
-                        <div class="accordion-card rounded-3 active p-4 rounded-3">
+            <div class="row pt-md-7 pt-6 ">
+                <div class="col-lg-4 col-md-6 col-12 d-flex flex-column gap-2 pb-3 pb-md-0">
+                    <button class="accordion-card rounded-3 active rounded-3 p-md-4 p-3 active text-start animate-on-scroll" data-tab-target="#balance">
+                        <div class="d-flex column-gap-3">
+                            <div class="d-flex align-items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_118_540)">
+                                    <path d="M0 18.9984V21C0 22.6547 4.03125 24 9 24C13.9688 24 18 22.6547 18 21V18.9984C16.0641 20.3625 12.525 21 9 21C5.475 21 1.93594 20.3625 0 18.9984ZM15 6C19.9688 6 24 4.65469 24 3C24 1.34531 19.9688 0 15 0C10.0312 0 6 1.34531 6 3C6 4.65469 10.0312 6 15 6ZM0 14.0812V16.5C0 18.1547 4.03125 19.5 9 19.5C13.9688 19.5 18 18.1547 18 16.5V14.0812C16.0641 15.675 12.5203 16.5 9 16.5C5.47969 16.5 1.93594 15.675 0 14.0812ZM19.5 14.5969C22.1859 14.0766 24 13.1109 24 12V9.99844C22.9125 10.7672 21.3141 11.2922 19.5 11.6156V14.5969ZM9 7.5C4.03125 7.5 0 9.17812 0 11.25C0 13.3219 4.03125 15 9 15C13.9688 15 18 13.3219 18 11.25C18 9.17812 13.9688 7.5 9 7.5ZM19.2797 10.1391C22.0922 9.63281 24 8.63906 24 7.5V5.49844C22.3359 6.675 19.4766 7.30781 16.4672 7.45781C17.85 8.12813 18.8672 9.02813 19.2797 10.1391Z" fill="currentColor"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_118_540">
+                                    <rect width="24" height="24" fill="currentColor"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
                             <span class="p-large-bold">
                                 Finance & Ledger
                             </span>
-                            <span class="p-regular d-block">
-                                Multi-currency reconciliation and AI forecasting.
-                            </span>
                         </div>
-                        <div class="accordion-card rounded-3 p-4 rounded-3">
+                        <span class="p-regular d-block">
+                            Multi-currency reconciliation and AI forecasting.
+                        </span>
+                    </button>
+                    <button class="accordion-card rounded-3 p-4 rounded-3 text-start animate-on-scroll" data-tab-target="#developer">
+                        <div class="d-flex column-gap-3">
+                            <div class="d-flex align-items-center">
+                                <svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.9033 0.517578L12.9922 22.5771L11.0605 22.0586L16.9717 0L18.9033 0.517578ZM7.73535 6.57324L2.82812 11.4805L7.73535 16.3877L6.32129 17.8018L0 11.4805L6.32129 5.1582L7.73535 6.57324ZM29.7002 11.4805L23.3789 17.8018L21.9648 16.3877L26.8721 11.4805L21.9648 6.57324L23.3789 5.1582L29.7002 11.4805Z" fill="currentColor"/>
+                                </svg>
+                            </div>
                             <span class="p-large-bold">
                                 Developer API
                             </span>
-                            <span class="p-regular d-block">
-                                GraphQL endpoints for custom builds.
+                        </div>
+                        <span class="p-regular d-block">
+                            GraphQL endpoints for custom builds.
+                        </span>
+                    </button>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 animate-on-scroll">
+                    <div class="position-relative">
+                        <div class="accordion-content active" id="balance">
+                            <div class="row h-100 justify-content-center align-items-center">
+                                <div class="accordion-item container-light-blue p-5 col-lg-7 col-10 rounded-5">
+                                    <div class="d-flex flex-row justify-content-between align-items-center">
+                                        <div>
+                                            <p class="detail-regular">
+                                                Total Balance
+                                            </p>
+                                            <p class="p-bold">
+                                                $124,592.00
+                                            </p>
+                                        </div>
+                                        <div class="select c-white p-3 rounded-3 bg-gray">
+                                            This Month
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.707031 0.717529L5.08887 5.09937L9.60275 0.717529" stroke="currentColor" stroke-width="1"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="graph pt-4">
+                                        <img src="./assets/imgs/graph.svg" class="w-100" alt="graph">
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="profile d-flex flex-row column-gap-3 align-items-center pt-5">
+                                        <div class="profile-thumb opacity-75 p-3 rounded-5">
+                                            <img src="./assets/imgs/STRIPE ICON.svg" alt="Stripe Logo">
+                                        </div>
+                                        <div>
+                                            <p class="p-bold c-white">
+                                            Stripe
+                                            </p>
+                                            <p class="detail-regular c-white opacity-75">
+                                                Today, 9:42 AM
+                                            </p>
+                                        </div>
+                                        </div>
+                                        <div class="p-bold c-green">
+                                            +1,200.00
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-content " id="developer">
+                            <div class="row h-100 justify-content-center align-items-center">
+                                <div class="accordion-item container-light-blue p-5 col-lg-7 col-10 rounded-5">
+                                    <div class="d-flex flex-row justify-content-between align-items-center">
+                                        <div>
+                                            <p class="detail-regular">
+                                                Dev tools
+                                            </p>
+                                            <p class="p-bold">
+                                                $10,592.00
+                                            </p>
+                                        </div>
+                                        <div class="select c-white p-3 rounded-3 bg-gray">
+                                            New tools
+                                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.707031 0.717529L5.08887 5.09937L9.60275 0.717529" stroke="currentColor" stroke-width="1"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="graph pt-4">
+                                        <img src="./assets/imgs/graph.svg" class="w-100" alt="graph">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="bg-black diagonal-container">
+        <div class="container py-lg-10 py-9">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5 col-md-10 col-12 d-flex flex-column pb-lg-0 pb-5 animate-on-scroll">
+                    <h2 class="h1-bold c-white text-lg-start text-center ">Play nice with your entire stack.</h2>
+                    <p class="p-regular c-white opacity-75 pt-lg-5 pt-4 text-lg-start text-center">Odoo offers 500+ native integrations. Connect your CRM, Bank, and Cloud Infrastructure with a single click.</p>
+                    <button class= "button-sm bg-transparent border-white c-white p-regular rounded-3 mt-4 align-self-lg-start align-self-center">View All Integrations</button>
+                </div>
+                <div class="col-lg-7 col-md-10 col-12 animate-on-scroll">
+                    <div class="brand-card-grid gap-3 gap-lg-4">
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/SLACK1.svg" alt="SLACK1 Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/Jira.svg" alt="Jira Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/Salesforce.svg" alt="Salesforce Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/Cube.svg" alt="Cube Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/Hubspot.svg" alt="Hubspot Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/GitHub.svg" alt="SLACK1 Logo">
+                        </div>
+                        <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
+                            <img src="./assets/imgs/Shopify.svg" alt="Shopify Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="py-lg-10 py-9 bg-dark-blue">
+        <div class="container">
+            <div class="row justify-content-center animate-on-scroll">
+                <div class="col-lg-6 col-md-10 col-12 d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="h2-bold text-center">Simple, transparent pricing</h2>
+                    <div class="tab-selector p-regular d-flex column-gap-3 bg-gray mt-5">
+                        <a class="tab-item active">
+                            Monthly
+                        </a>
+                        <a class="tab-item">
+                            Yearly
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center pt-7 animate-on-scroll">
+                <div class="col-lg-4 col-md-10 col-12 mb-lg-0 mb-3">
+                    <div class="price-card d-flex flex-column p-4 rounded-3">
+                        <div class="p-large-bold c-white">
+                            Startup
+                        </div>
+                        <div class="pt-3 c-white">
+                            <span class="h2-bold price1">
+                                $499
+                            </span>
+                            <span class="c-white opacity-50 p-regular">
+                                /mo
                             </span>
                         </div>
+                        <div class="p-regular pt-3">
+                            <div class="color-white">
+                                <span class="opacity-50">Finance Module</span>
+                            </div>
+                            <div class="color-white">
+                                <span class="opacity-50">5 Team Members</span>
+                            </div>
+                        </div>
+                        <button class="button-sm mt-4 c-white w-100 p-regular rounded-3 border-white">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-12 mb-lg-0 mb-3">
+                    <div class="price-card active bg-gradient-blue d-flex align-items-start flex-column p-7 rounded-5">
+                        <div class="tag-blue detail-bold rounded-3 d-flex-inline">
+                            Popular
+                        </div>
+                        <div class="p-large-bold c-white pt-3">
+                            Growth
+                        </div>
+                        <div class="pt-3">
+                            <span class="h2-bold c-white price2">
+                                $999
+                            </span><span class="c-white p-regular">
+                                /mo
+                            </span>
+                        </div>
+                        <div class="pt-3">
+                            <div class="color-white">
+                                <span class="p-bold">Finance Module</span>
+                            </div>
+                            <div class="color-white">
+                                <span class="p-regular">5 Team Members</span>
+                            </div>
+                            <div>
+                                <span class="p-regular">API Access</span>
+                            </div>
+                        </div>
+                        <button class="button-sm button-accent mt-5 c-white w-100 p-regular rounded-3">Start Free Trial</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-12 mb-lg-0 mb-3">
+                    <div class="price-card border-blue d-flex flex-column p-4 rounded-3">
+                        <div class="p-large-bold c-white">
+                            Enterprise
+                        </div>
+                        <div class="pt-3 c-white">
+                            <span class="h2-bold">
+                                Custom
+                            </span>
+                        </div>
+                        <div class="p-regular pt-3">
+                            <div class="color-white">
+                                <span class="opacity-50">Dedicated Server</span>
+                            </div>
+                            <div class="color-white">
+                                <span class="opacity-50">Custom Integrations</span>
+                            </div>
+                        </div>
+                        <button class="button-sm mt-4 c-white w-100 p-regular rounded-3 border-white">Contact Sales</button>
+
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="stack" class="bg-black diagonal-container">
-            <div class="container py-10">
-                <div class="row align-items-center">
-                    <div class="col-5">
-                        <h2 class="h1-bold c-white">Play nice with your entire stack.</h2>
-                        <p class="p-regular c-white opacity-75 pt-5">Odoo offers 500+ native integrations. Connect your CRM, Bank, and Cloud Infrastructure with a single click.</p>
-                        <button class= "button-sm bg-transparent border-white c-white p-regular rounded-3 mt-4">View All Integrations</button>
+    <footer class="bg-black">
+        <div class="container footer-links">
+            <div class="row align-items-start justify-content-center pt-lg-10 pt-9 pb-lg-7 pb-6">
+                <div class="col-md-3 col-10">
+                    <div class="footer-logo c-white">
+                        <img src="./assets/imgs/logo.svg" alt="Odoo Logo">
                     </div>
-                    <div class="col-7">
-                        <div class="brand-card-grid">
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
-                            <div class="brand-card rounded-4 d-flex align-items-center justify-content-center">
-                                <svg class="c-white opacity-50" width="66" height="66" viewBox="0 0 66 66" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M24.2979 36.96C24.2979 38.6955 22.8801 40.1133 21.1445 40.1133C19.409 40.1133 17.9912 38.6955 17.9912 36.96C17.9912 35.2244 19.409 33.8066 21.1445 33.8066H24.2979V36.96Z"/>
-                                    <path d="M25.8867 36.96C25.8867 35.2244 27.3045 33.8066 29.0401 33.8066C30.7756 33.8066 32.1934 35.2244 32.1934 36.96V44.8555C32.1934 46.5911 30.7756 48.0089 29.0401 48.0089C27.3045 48.0089 25.8867 46.5911 25.8867 44.8555V36.96Z"/>
-                                    <path d="M29.0401 24.2978C27.3045 24.2978 25.8867 22.88 25.8867 21.1444C25.8867 19.4089 27.3045 17.9911 29.0401 17.9911C30.7756 17.9911 32.1934 19.4089 32.1934 21.1444V24.2978H29.0401Z"/>
-                                    <path d="M29.0401 25.8866C30.7757 25.8866 32.1934 27.3044 32.1934 29.0399C32.1934 30.7755 30.7757 32.1933 29.0401 32.1933H21.1445C19.409 32.1933 17.9912 30.7755 17.9912 29.0399C17.9912 27.3044 19.409 25.8866 21.1445 25.8866H29.0401Z"/>
-                                    <path d="M41.7024 29.0399C41.7024 27.3044 43.1202 25.8866 44.8557 25.8866C46.5913 25.8866 48.0091 27.3044 48.0091 29.0399C48.0091 30.7755 46.5913 32.1933 44.8557 32.1933H41.7024V29.0399Z"/>
-                                    <path d="M40.1136 29.04C40.1136 30.7755 38.6958 32.1933 36.9602 32.1933C35.2247 32.1933 33.8069 30.7755 33.8069 29.04V21.1444C33.8069 19.4089 35.2247 17.9911 36.9602 17.9911C38.6958 17.9911 40.1136 19.4089 40.1136 21.1444V29.04Z"/>
-                                    <path d="M36.9602 41.7021C38.6958 41.7021 40.1136 43.1199 40.1136 44.8555C40.1136 46.591 38.6958 48.0088 36.9602 48.0088C35.2247 48.0088 33.8069 46.591 33.8069 44.8555V41.7021H36.9602Z"/>
-                                    <path d="M36.9602 40.1133C35.2247 40.1133 33.8069 38.6955 33.8069 36.96C33.8069 35.2244 35.2247 33.8066 36.9602 33.8066H44.8558C46.5913 33.8066 48.0091 35.2244 48.0091 36.96C48.0091 38.6955 46.5913 40.1133 44.8558 40.1133H36.9602Z"/>
-                                </svg>
-                            </div>
+                </div>
+                <div class="col-lg-2 offset-md-1 col-md-3 col-6">
+                    <div class="d-flex flex-column row-gap-3">
+                        <div class="p-bold c-white">Product</div>
+                        <a href="#" class="p-regular c-white">Finance</a>
+                        <a href="#" class="p-regular c-white">Supply Chain</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <div class="d-flex flex-column row-gap-3">
+                        <div class="p-bold c-white">Company</div>
+                        <a href="#" class="p-regular c-white">About us</a>
+                        <a href="#" class="p-regular c-white">Careers</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-10 col-12 pt-lg-0 pt-5">
+                    <div class="c-white p-bold">
+                        Newsletter
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control bg-gray border-transparent p-regular c-white" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn button-lg button-form bg-blue p-regular c-white" type="button">Join</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section id="pricing" class="py-10 bg-dark-blue">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6 d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="h2-bold text-center">Simple, transparent pricing</h2>
-                        <div class="tab-selector p-regular rounded-5 d-flex column-gap-3 bg-gray mt-5">
-                            <div class="tab-item active">
-                                Monthly
-                            </div>
-                            <div class="tab-item">
-                                Yearly
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center pt-7">
-                    <div class="col-4">
-                        <div class="price-card border-dark-blue d-flex flex-column p-4 rounded-3">
-                            <div class="p-large-bold c-white">
-                                Startup
-                            </div>
-                            <div class="pt-3 c-white">
-                                <span class="h2-bold">
-                                    $499
-                                </span>
-                                <span class="c-white opacity-50 p-regular">
-                                    /mo
-                                </span>
-                            </div>
-                            <div class="p-regular pt-3">
-                                <div class="color-white">
-                                    <span class="opacity-50">Finance Module</span>
-                                </div>
-                                <div class="color-white">
-                                    <span class="opacity-50">5 Team Members</span>
-                                </div>
-                            </div>
-                            <button class="button-sm mt-4 c-white w-100 p-regular rounded-3 border-white">Get Started</button>
-
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="price-card active bg-gradient-blue d-flex align-items-start flex-column p-7 rounded-5">
-                            <div class="tag-blue detail-bold rounded-3 d-flex-inline">
-                                Popular
-                            </div>
-                            <div class="p-large-bold c-white pt-3">
-                                Growth
-                            </div>
-                            <div class="pt-3">
-                                <span class="h2-bold c-white">
-                                    $999
-                                </span><span class="c-dark p-regular">
-                                    /mo
-                                </span>
-                            </div>
-                            <div class="pt-3">
-                                <div class="color-white">
-                                    <span class="p-bold">Finance Module</span>
-                                </div>
-                                <div class="color-white">
-                                    <span class="p-regular">5 Team Members</span>
-                                </div>
-                                <div>
-                                    <span class="p-regular">API Access</span>
-                                </div>
-                            </div>
-                            <button class="button-sm button-accent mt-5 c-dark w-100 p-regular rounded-3">Start Free Trial</button>
-
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="price-card border-dark-blue d-flex flex-column p-4 rounded-3">
-                            <div class="p-large-bold c-white">
-                                Enterprise
-                            </div>
-                            <div class="pt-3 c-white">
-                                <span class="h2-bold">
-                                    Custom
-                                </span>
-                            </div>
-                            <div class="p-regular pt-3">
-                                <div class="color-white">
-                                    <span class="opacity-50">Dedicated Server</span>
-                                </div>
-                                <div class="color-white">
-                                    <span class="opacity-50">Custom Integrations</span>
-                                </div>
-                            </div>
-                            <button class="button-sm mt-4 c-white w-100 p-regular rounded-3 border-white">Contact Sales</button>
-
-                        </div>
-                    </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 p-regular pb-lg-6 pb-5 pt-4 pt-lg-3 c-white opacity-50 text-center bottom">
+                    © 2025 Odoo Inc.
                 </div>
             </div>
-        </section>
-
-        <footer class="bg-black">
-            <div class="container">
-                <div class="row align-items-end pt-10 pb-7">
-                    <div class="col-3">
-                        <div class="footer-logo c-white">
-                            <svg width="241" height="129" viewBox="0 0 241 129" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M182.258 90.1696C178.368 90.1696 174.565 89.0233 171.331 86.8756C168.097 84.7279 165.576 81.6753 164.087 78.1039C162.598 74.5324 162.209 70.6025 162.968 66.811C163.727 63.0196 165.6 59.5369 168.35 56.8034C171.101 54.0699 174.606 52.2084 178.421 51.4543C182.236 50.7001 186.191 51.0872 189.785 52.5665C193.378 54.0459 196.45 56.551 198.611 59.7653C200.773 62.9795 201.926 66.7584 201.926 70.6242C201.926 75.8079 199.854 80.7794 196.165 84.4449C192.477 88.1104 187.474 90.1696 182.258 90.1696ZM182.258 82.0908C184.54 82.0908 186.771 81.4183 188.668 80.1583C190.566 78.8984 192.045 77.1075 192.918 75.0123C193.792 72.917 194.02 70.6114 193.575 68.3871C193.13 66.1628 192.031 64.1196 190.417 62.516C188.803 60.9124 186.747 59.8203 184.509 59.3778C182.271 58.9354 179.951 59.1625 177.842 60.0303C175.734 60.8982 173.932 62.3679 172.664 64.2536C171.396 66.1393 170.719 68.3563 170.719 70.6242C170.719 73.6653 171.935 76.5819 174.099 78.7323C176.263 80.8827 179.198 82.0908 182.258 82.0908ZM141.086 90.1696C137.196 90.1696 133.393 89.0233 130.159 86.8756C126.925 84.7279 124.404 81.6753 122.915 78.1039C121.426 74.5324 121.037 70.6025 121.796 66.811C122.555 63.0196 124.428 59.5369 127.179 56.8034C129.929 54.0699 133.434 52.2084 137.249 51.4543C141.064 50.7001 145.019 51.0872 148.613 52.5665C152.207 54.0459 155.278 56.551 157.439 59.7653C159.601 62.9795 160.754 66.7584 160.754 70.6242C160.754 75.8079 158.682 80.7794 154.993 84.4449C151.305 88.1104 146.302 90.1696 141.086 90.1696ZM141.086 82.0908C143.368 82.0908 145.599 81.4183 147.497 80.1583C149.394 78.8984 150.873 77.1075 151.746 75.0123C152.62 72.917 152.848 70.6114 152.403 68.3871C151.958 66.1628 150.859 64.1196 149.245 62.516C147.631 60.9124 145.575 59.8203 143.337 59.3778C141.099 58.9354 138.779 59.1625 136.67 60.0303C134.562 60.8982 132.76 62.3679 131.492 64.2536C130.224 66.1393 129.547 68.3563 129.547 70.6242C129.547 73.6653 130.763 76.5819 132.927 78.7323C135.091 80.8827 138.026 82.0908 141.086 82.0908ZM119.582 70.3635C119.582 81.2829 110.771 90.1696 99.9141 90.1696C89.0573 90.1696 80.246 81.309 80.246 70.3896C80.246 59.4702 88.2443 51.0787 99.9141 51.0787C104.215 51.0787 108.201 51.9908 111.453 54.3623V43.026C111.453 40.8629 113.367 39.0908 115.517 39.0908C117.668 39.0908 119.582 40.8629 119.582 43.026V70.3635ZM99.9141 82.0908C102.196 82.0908 104.427 81.4183 106.325 80.1583C108.222 78.8984 109.701 77.1075 110.574 75.0123C111.448 72.917 111.676 70.6114 111.231 68.3871C110.786 66.1628 109.687 64.1196 108.073 62.516C106.459 60.9124 104.403 59.8203 102.165 59.3778C99.9269 58.9354 97.6069 59.1625 95.4984 60.0303C93.39 60.8982 91.588 62.3679 90.3201 64.2536C89.0522 66.1393 88.3755 68.3563 88.3755 70.6242C88.3755 73.6653 89.5911 76.5819 91.755 78.7323C93.919 80.8827 96.8539 82.0908 99.9141 82.0908Z" fill="white"/>
-                            <path d="M58.7421 90.1698C54.8521 90.1698 51.0495 89.0235 47.8151 86.8758C44.5807 84.7281 42.0598 81.6755 40.5711 78.104C39.0825 74.5326 38.693 70.6026 39.4519 66.8112C40.2108 63.0197 42.084 59.5371 44.8346 56.8036C47.5853 54.0701 51.0898 52.2086 54.905 51.4544C58.7203 50.7003 62.6749 51.0873 66.2688 52.5667C69.8626 54.046 72.9344 56.5512 75.0955 59.7654C77.2567 62.9797 78.4102 66.7586 78.4102 70.6243C78.4102 75.8081 76.3381 80.7796 72.6496 84.445C68.9611 88.1105 63.9584 90.1698 58.7421 90.1698ZM58.7421 82.091C61.0242 82.091 63.2551 81.4185 65.1526 80.1585C67.0501 78.8985 68.5291 77.1077 69.4024 75.0124C70.2757 72.9172 70.5042 70.6116 70.059 68.3873C69.6138 66.163 68.5149 64.1198 66.9011 62.5162C65.2874 60.9125 63.2315 59.8204 60.9932 59.378C58.7549 58.9355 56.4349 59.1626 54.3265 60.0305C52.2181 60.8984 50.416 62.3681 49.1481 64.2538C47.8802 66.1395 47.2035 68.3564 47.2035 70.6243C47.2035 73.6655 48.4191 76.5821 50.5831 78.7325C52.747 80.8829 55.6819 82.091 58.7421 82.091Z" fill="white"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="col-2 offset-1">
-                        <div class="d-flex flex-column row-gap-3">
-                            <div class="p-bold c-white">Product</div>
-                            <div class="p-regular c-white opacity-50">Finance</div>
-                            <div class="p-regular c-white opacity-50">Supply Chain</div>
-                        </div>
-                    </div>
-
-                    <div class="col-2">
-                        <div class="d-flex flex-column row-gap-3">
-                            <div class="p-bold c-white">Company</div>
-                            <div class="p-regular c-white opacity-50">About us</div>
-                            <div class="p-regular c-white opacity-50">Careers</div>
-                        </div>
-                    </div>
-
-                    <div class="col-4">
-                        <div class="c-white p-bold">
-                            Newsletter
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-12 p-regular pb-6 pt-4 c-white opacity-50 text-center bottom">
-                        (c) 2025 Odoo Inc.
-                    </div>
-                </div>
-            </div>
-            
-        </footer>
-    </main>
-
+        </div>
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="./vendor/headroom/headroom.min.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/animate.js"></script>
 </body>
 </html>

@@ -6,24 +6,46 @@ $font-weight: (
 );
 
 $font-sizes: (
-    tag: (size: 16px, letter-spacing: 0.11em),
-    detail: (size: 13px, letter-spacing: -0.01em),
-    display: (size: 66px, letter-spacing: -0.01em),
-    h1: (size: 50px, letter-spacing: -0.01em),
-    h2: (size: 42px, letter-spacing: -0.01em),
-    p-large: (size: 22px, letter-spacing: normal),
-    p: (size: 18px, letter-spacing: normal)
+    tag: (
+        base: (size: 16px, letter-spacing: 0.11em),
+        md: (size: 14px, letter-spacing: 0.11em),
+        sm: (size: 14px, letter-spacing: 0.11em)
+    ),
+    detail: (
+        base: (size: 13px, letter-spacing: -0.01em),
+        md: (size: 12px, letter-spacing: -0.01em),
+        sm: (size: 12px, letter-spacing: -0.01em)
+    ),
+    display: (
+        base: (size: 66px, letter-spacing: -0.01em),
+        md: (size: 46px, letter-spacing: -0.01em),
+        sm: (size: 35px, letter-spacing: -0.01em)
+    ),
+    h1: (
+        base: (size: 50px, letter-spacing: -0.01em),
+        md: (size: 40px, letter-spacing: -0.01em),
+        sm: (size: 30px, letter-spacing: -0.01em)
+    ),
+    h2: (
+        base: (size: 42px, letter-spacing: -0.01em),
+        md: (size: 32px, letter-spacing: -0.01em),
+        sm: (size: 22px, letter-spacing: -0.01em)
+    ),
+    p-large: (
+        base: (size: 22px, letter-spacing: normal),
+        md: (size: 18px, letter-spacing: normal),
+        sm: (size: 16px, letter-spacing: normal)
+    ),
+    p: (
+        base: (size: 18px, letter-spacing: normal),
+        md: (size: 16px, letter-spacing: normal),
+        sm: (size: 14px, letter-spacing: normal)
+    )
 );
 
 $colors: (
-    dark: #010617,
-    dark-blue: #010617,
-    blue: #0D6EFD,
-    white: #FFFFFF,
-    purple: #9E60F7,
-    gray: #212529,
-    black: #000000,
-    transparent: transparent 
+    dark: #010617, dark-blue: #010617, blue: #0D6EFD, white: #FFFFFF, purple: #9E60F7,
+    gray: #212529, black: #000000, green: #198754, light-blue: #1D2738, transparent: transparent 
 );
 
 @include generate-color-classes($colors);

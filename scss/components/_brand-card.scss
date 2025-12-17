@@ -1,11 +1,37 @@
 .brand-card {
     border: 1px solid rgba(map-get($colors, white), 0.2);
     padding: 15px;
-
-    &-grid{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    img {
+        opacity: 0.25; 
+        transition: opacity 0.3s ease, scale 0.3s ease;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: linear-gradient(45deg, #3C81F6 0%, #6267F1 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: -1;
+    }
+    &:hover {
+        cursor: pointer;
+        &::before {
+            opacity: 1;
+            
+        }
+        img {
+            opacity: 1;
+            scale: 1.1;
+            
+        }
+    }
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: repeat(3, minmax(0, 1fr));
     }
 }
